@@ -1,0 +1,19 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+section{
+    display: block;
+    width: 100%;
+
+
+}
+#banner{
+    background-size: cover;
+    background-image: url(http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg);
+    width: 100%;
+    height: 50%;
+
+}
