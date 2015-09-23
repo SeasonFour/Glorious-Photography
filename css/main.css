@@ -96,6 +96,7 @@ section{
 	background-color: lightgrey;
 	text-align: center;
 }
+
 .icon {
 	float: left;
 	margin-left: 350px;
@@ -103,4 +104,3 @@ section{
 .pop {
 	margin: 20px;
 }
-
