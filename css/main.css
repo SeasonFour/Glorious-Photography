@@ -11,6 +11,8 @@ section{
 
 
   		/*banner*/
+
+
 #banner{
     background-size: cover;
     background-image: url(http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg);
@@ -84,5 +86,21 @@ section{
 .cardimg {
 	height: 400px;
 	width: 100%;
+}
+
+		/*	contacts	*/
+
+#contacts {
+	height: 240px;
+	width: 100%;
+	background-color: lightgrey;
+	text-align: center;
+}
+.icon {
+	float: left;
+	margin-left: 350px;
+}
+.pop {
+	margin: 20px;
 }
 
