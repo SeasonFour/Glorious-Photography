@@ -10,6 +10,33 @@ section{
 
 
 }
+nav{
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    padding: 2%;
+}
+nav ul li{
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0 3%;
+    font-size: 1.7em
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+
+
+/**************ID STYLES******************/
+#portfolio{
+
+    clear: both;
+}
+#contacts{
+    float: right;
+}
 #banner{
     background-size: cover;
     background-image: url(http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg);
@@ -17,6 +44,36 @@ section{
     height: 50%;
 
 }
+
+/*****************Services styling **************/
+.stxt{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.stxt p{
+    margin: 0;
+    padding: 0;
+
+}
+.simg{
+    padding-left: 30%;
+}
+.svc{
+    width: 27%;
+    margin: 1%;
+    overflow:
+
+}
+
+
+
+
+
+
+
+
+
 /************card styles******/
 .card {
   position: relative;
@@ -24,6 +81,7 @@ section{
   padding-bottom: 25%;
   width: 25%;
   text-align: center;
+  margin: 2%;
 }
 /* card fronts and backs */
 .card__front,
