@@ -14,8 +14,8 @@ section{
 
 #banner {
     background-size: cover;
-    background-image: url(http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg);
-    width: 100%;
+   /* background-image: url(http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg);
+*/    width: 100%;
 	height: 100%;
 }
 
@@ -178,6 +178,7 @@ nav ul li a:hover {
 }
 
 .icon {
+    margin-bottom: 0;
 	float: left;
 	margin-left: 350px;
 }

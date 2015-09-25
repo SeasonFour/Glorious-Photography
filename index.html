@@ -7,15 +7,20 @@
 		<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 		<script src="http://use.edgefonts.net/federant:n4:all.js"></script>
 
+            <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
         <script src="js/mordernizr.js"></script>
-        <script src="js/card.js"></script>
+
     </head>
 
     <body>
 
 
 			<!--#banner-->
-        <section id="banner">
+        <!--<section id="banner">-->
             <div class="container">
 
                 <nav>
@@ -25,14 +30,54 @@
                         <li><a href="#contacts">contacts</a></li>
                     </ul>
                 </nav>
-
-                <div class="bannertxt">
-                    <h1>Glorious photography</h1>
-                    <p>Are you looking for photography that meets your needs. <br>Glorious photography delivers </p>
-                </div>
-
             </div>
-        </section>
+
+                <!--Sliders start-->
+             <header id="myCarousel" class="carousel slide">
+                <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://www.edgephotography.com.au/wp-content/uploads/2015/03/Wedding-2.jpeg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://www.hdwallpaperbackgrounds.org/hd-wallpapers-backgrounds/Natural-Scenery-Desktop-Wallpaper-Picture-1920x1080.jpg');"></div>
+               <!-- <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>-->
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://www.cosmosgaming.com/wp-content/uploads/2014/03/300-Rise-of-an-Empire-Movie-HD-Wallpaper.jpg');"></div>
+               <!-- <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>-->
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+        <!--</section>-->
 
 
 
@@ -82,7 +127,7 @@
                         </div><!--/.simg-->
 
                         <div class="stxt">
-                            <p>asfjh kfhak l6sdg halk6 dhgf la dg<br>hla dfh lk6 ahd lgh a</p>
+                            <p>We publish photos in with fair costs and quality.<br>We offer various ways to make your payments.</p>
                         </div><!--/.stxt-->
 
                     </div><!--/.col-xs-6 col-md-4-->
@@ -183,17 +228,30 @@
 			<div class="row icon">
 				<div class="col-md-12">
 
-					<a href="http://facebook.com/gloriousphotography"><img src="assets/facebook1.png" class="pop"></a>
-					<a href="https:/pintrest.com"><img src="assets/pinterest.png" class="pop"></a>
-					<a href="https:/googplus.com"><img src="assets/googleplus.png" class="pop"></a>
-					<a href="https:/flickr.com"><img src="assets/flickr.png" class="pop"></a>
-					<a href="https:/https:/twitter.com"><img src="assets/twitter1.png" class="pop"></a>
+					<a href="http://facebook.com/gloriousphotography"><img src="http://www.cfielectric.com/images/facebook.gif" class="pop"></a>
+					<a href="https:/pintrest.com"><img src="http://www.redrover.org/sites/all/modules/socialmedia/icons/levelten/glossy/32x32/pinterest.png" class="pop"></a>
+					<a href="https:/googplus.com"><img src="https://www.cotr.bc.ca/portal/icons/google_plus32.png" class="pop"></a>
+					<a href="https:/flickr.com"><img src="http://www.fancyicons.com/free-icons/103/socialmedia1-shadow/png/32/flickr2_32.png" class="pop"></a>
+					<a href="https:/https:/twitter.com"><img src="http://www.campalandale.org/_/rsrc/1381441437465/config/twitter-icon-32.png" class="pop"></a>
 
 				</div><!--/.col-md-12-->
 				<h3>Glorious Photography<br>&copy;2015</h3>
 			</div><!--/.row-->
 		</section><!--#contacts-->
 
+
+        <!--scripts-->
+         <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 
 	</body>
