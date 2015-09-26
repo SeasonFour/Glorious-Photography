@@ -8,6 +8,6 @@ Implemented:
 * Adobe edge fonts brackets plugin
 * Google fonts api
 
-Group work by Moses and Bill. 
+Group work by [Moses](https://github.com/mussaimo) and [Bill](https://github.com/BillChabzz). 
 
 
